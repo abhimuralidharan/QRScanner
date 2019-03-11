@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		92368507223624F7005C1AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92368506223624F7005C1AD7 /* AppDelegate.swift */; };
-		92368509223624F7005C1AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92368508223624F7005C1AD7 /* ViewController.swift */; };
-		9236850C223624F7005C1AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236850A223624F7005C1AD7 /* Main.storyboard */; };
 		9236850E223624F8005C1AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9236850D223624F8005C1AD7 /* Assets.xcassets */; };
 		92368511223624F8005C1AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236850F223624F8005C1AD7 /* LaunchScreen.storyboard */; };
+		9236851B22362675005C1AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9236851822362675005C1AD7 /* Main.storyboard */; };
+		9236851C22362675005C1AD7 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236851922362675005C1AD7 /* QRScannerViewController.swift */; };
+		9236851D22362675005C1AD7 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236851A22362675005C1AD7 /* QRScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92368503223624F7005C1AD7 /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92368506223624F7005C1AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92368508223624F7005C1AD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9236850B223624F7005C1AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9236850D223624F8005C1AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92368510223624F8005C1AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92368512223624F8005C1AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9236851822362675005C1AD7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9236851922362675005C1AD7 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		9236851A22362675005C1AD7 /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				92368506223624F7005C1AD7 /* AppDelegate.swift */,
-				92368508223624F7005C1AD7 /* ViewController.swift */,
-				9236850A223624F7005C1AD7 /* Main.storyboard */,
+				9236851E22362681005C1AD7 /* View */,
+				9236851922362675005C1AD7 /* QRScannerViewController.swift */,
 				9236850D223624F8005C1AD7 /* Assets.xcassets */,
 				9236850F223624F8005C1AD7 /* LaunchScreen.storyboard */,
 				92368512223624F8005C1AD7 /* Info.plist */,
 			);
 			path = QRScanner;
+			sourceTree = "<group>";
+		};
+		9236851E22362681005C1AD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9236851822362675005C1AD7 /* Main.storyboard */,
+				9236851A22362675005C1AD7 /* QRScannerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9236851B22362675005C1AD7 /* Main.storyboard in Resources */,
 				92368511223624F8005C1AD7 /* LaunchScreen.storyboard in Resources */,
 				9236850E223624F8005C1AD7 /* Assets.xcassets in Resources */,
-				9236850C223624F7005C1AD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92368509223624F7005C1AD7 /* ViewController.swift in Sources */,
+				9236851C22362675005C1AD7 /* QRScannerViewController.swift in Sources */,
+				9236851D22362675005C1AD7 /* QRScannerView.swift in Sources */,
 				92368507223624F7005C1AD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9236850A223624F7005C1AD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9236850B223624F7005C1AD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9236850F223624F8005C1AD7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z9R274Z8Z;
 				INFOPLIST_FILE = QRScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z9R274Z8Z;
 				INFOPLIST_FILE = QRScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
