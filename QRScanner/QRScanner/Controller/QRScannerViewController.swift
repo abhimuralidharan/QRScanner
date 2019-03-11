@@ -21,6 +21,14 @@ class QRScannerViewController: UIViewController {
         }
     }
     
+    var qrData: QRData? = nil {
+        didSet {
+            if qrData != nil {
+                self.performSegue(withIdentifier: "detailSeuge", sender: self)
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -41,13 +49,6 @@ class QRScannerViewController: UIViewController {
         }
     }
 
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
-    }
     @IBAction func scanButtonAction(_ sender: UIButton) {
         scannerView.isRunning ? scannerView.stopScanning() : scannerView.startScanning()
         let buttonTitle = scannerView.isRunning ? "STOP" : "SCAN"
@@ -67,8 +68,18 @@ extension QRScannerViewController: QRScannerViewDelegate {
     }
     
     func qrScanningSucceededWithCode(_ str: String?) {
-        print(str)
+        self.qrData = QRData(codeString: str)
     }
     
     
 }
+
+
+extension QRScannerViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailSeuge", let viewController = segue.destination as? DetailViewController {
+            viewController.qrData = self.qrData
+        }
+    }
+}
+
