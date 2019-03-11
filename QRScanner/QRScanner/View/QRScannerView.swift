@@ -1,5 +1,5 @@
 //
-//  VideoScannerView.swift
+//  QRScannerView.swift
 //  QRCodeReader
 //
 //  Created by KM, Abhilash a on 08/03/19.
