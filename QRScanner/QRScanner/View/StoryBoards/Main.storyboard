@@ -26,22 +26,28 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZE-7K-NwS">
-                                <rect key="frame" x="137.5" y="427" width="100" height="50"/>
+                                <rect key="frame" x="87.5" y="427" width="200" height="50"/>
                                 <color key="backgroundColor" red="0.79458792099999997" green="0.27550812429999999" blue="0.20028522970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Bam-2P-GFH"/>
+                                    <constraint firstAttribute="width" constant="200" id="Bam-2P-GFH"/>
                                     <constraint firstAttribute="height" constant="50" id="Jts-Sm-hbc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Scan again">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="scanButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PvH-dn-pux"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k5d-QF-enP" secondAttribute="trailing" constant="20" id="aLd-BU-xpd"/>
                             <constraint firstItem="2ZE-7K-NwS" firstAttribute="top" secondItem="k5d-QF-enP" secondAttribute="bottom" constant="8" id="hx7-Il-b9f"/>
@@ -83,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Egi-UG-f8P" firstAttribute="trailing" secondItem="Yzx-qz-HeC" secondAttribute="trailing" constant="20" id="3nS-p8-yZK"/>
                             <constraint firstItem="Yzx-qz-HeC" firstAttribute="leading" secondItem="Egi-UG-f8P" secondAttribute="leading" constant="20" id="QNZ-Ep-DuY"/>

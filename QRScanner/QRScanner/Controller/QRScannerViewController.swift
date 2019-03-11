@@ -64,7 +64,7 @@ extension QRScannerViewController: QRScannerViewDelegate {
     }
     
     func qrScanningDidFail() {
-        print("Failed")
+        presentAlert(withTitle: "Error", message: "Scanning Failed. Please try again")
     }
     
     func qrScanningSucceededWithCode(_ str: String?) {

@@ -16,9 +16,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         detailLabel.text = qrData?.codeString
-        // Do any additional setup after loading the view.
     }
 
 }

@@ -15,6 +15,7 @@
 		9236851D22362675005C1AD7 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236851A22362675005C1AD7 /* QRScannerView.swift */; };
 		9236852022362AAA005C1AD7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236851F22362AAA005C1AD7 /* DetailViewController.swift */; };
 		9236852322362B1C005C1AD7 /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236852222362B1C005C1AD7 /* QRData.swift */; };
+		92368528223635AB005C1AD7 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92368527223635AB005C1AD7 /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9236851A22362675005C1AD7 /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
 		9236851F22362AAA005C1AD7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9236852222362B1C005C1AD7 /* QRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		92368527223635AB005C1AD7 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9236852422362B20005C1AD7 /* Model */,
 				9236851E22362681005C1AD7 /* View */,
 				9236852122362B04005C1AD7 /* Controller */,
+				9236852622363587005C1AD7 /* Extensions */,
 				9236850D223624F8005C1AD7 /* Assets.xcassets */,
 				9236850F223624F8005C1AD7 /* LaunchScreen.storyboard */,
 				92368512223624F8005C1AD7 /* Info.plist */,
@@ -103,6 +106,14 @@
 				9236851822362675005C1AD7 /* Main.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		9236852622363587005C1AD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92368527223635AB005C1AD7 /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				9236851C22362675005C1AD7 /* QRScannerViewController.swift in Sources */,
 				9236851D22362675005C1AD7 /* QRScannerView.swift in Sources */,
 				92368507223624F7005C1AD7 /* AppDelegate.swift in Sources */,
+				92368528223635AB005C1AD7 /* UIViewController+Alert.swift in Sources */,
 				9236852022362AAA005C1AD7 /* DetailViewController.swift in Sources */,
 				9236852322362B1C005C1AD7 /* QRData.swift in Sources */,
 			);
