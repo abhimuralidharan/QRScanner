@@ -335,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Z9R274Z8Z;
+				DEVELOPMENT_TEAM = 6J82A38BF9;
 				INFOPLIST_FILE = QRScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Z9R274Z8Z;
+				DEVELOPMENT_TEAM = 6J82A38BF9;
 				INFOPLIST_FILE = QRScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
