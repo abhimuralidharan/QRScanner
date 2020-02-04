@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:QRScanner_Sample.xcodeproj">
+      location = "group:/Users/pacu/Repos/QRScanner/Example/TinyQRScanner_Sample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

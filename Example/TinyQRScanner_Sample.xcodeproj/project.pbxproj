@@ -23,7 +23,7 @@
 		170C28B4EE598BD6EFB9577E /* Pods_QRScanner_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRScanner_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3040D8506B8A5CDA55A05A5A /* Pods-QRScanner_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScanner_Sample.debug.xcconfig"; path = "Target Support Files/Pods-QRScanner_Sample/Pods-QRScanner_Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		921807A4223B6DA200F36C40 /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
-		92368503223624F7005C1AD7 /* QRScanner_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92368503223624F7005C1AD7 /* TinyQRScanner_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyQRScanner_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92368506223624F7005C1AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9236850D223624F8005C1AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92368510223624F8005C1AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		92368504223624F7005C1AD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92368503223624F7005C1AD7 /* QRScanner_Sample.app */,
+				92368503223624F7005C1AD7 /* TinyQRScanner_Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92368502223624F7005C1AD7 /* QRScanner_Sample */ = {
+		92368502223624F7005C1AD7 /* TinyQRScanner_Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92368515223624F8005C1AD7 /* Build configuration list for PBXNativeTarget "QRScanner_Sample" */;
+			buildConfigurationList = 92368515223624F8005C1AD7 /* Build configuration list for PBXNativeTarget "TinyQRScanner_Sample" */;
 			buildPhases = (
 				87444A781855B88614557D96 /* [CP] Check Pods Manifest.lock */,
 				923684FF223624F7005C1AD7 /* Sources */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = QRScanner_Sample;
+			name = TinyQRScanner_Sample;
 			productName = QRScanner;
-			productReference = 92368503223624F7005C1AD7 /* QRScanner_Sample.app */;
+			productReference = 92368503223624F7005C1AD7 /* TinyQRScanner_Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 923684FE223624F7005C1AD7 /* Build configuration list for PBXProject "QRScanner_Sample" */;
+			buildConfigurationList = 923684FE223624F7005C1AD7 /* Build configuration list for PBXProject "TinyQRScanner_Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92368502223624F7005C1AD7 /* QRScanner_Sample */,
+				92368502223624F7005C1AD7 /* TinyQRScanner_Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -438,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		923684FE223624F7005C1AD7 /* Build configuration list for PBXProject "QRScanner_Sample" */ = {
+		923684FE223624F7005C1AD7 /* Build configuration list for PBXProject "TinyQRScanner_Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92368513223624F8005C1AD7 /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92368515223624F8005C1AD7 /* Build configuration list for PBXNativeTarget "QRScanner_Sample" */ = {
+		92368515223624F8005C1AD7 /* Build configuration list for PBXNativeTarget "TinyQRScanner_Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92368516223624F8005C1AD7 /* Debug */,
