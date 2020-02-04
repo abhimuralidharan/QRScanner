@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-    s.name             = 'QRScanner'
+    s.name             = 'TinyQRScanner'
     s.version          = '1.0.0-alpha'
-    s.summary          = 'Straight out-of-the-box QRScanner Based on AV Foundation'
+    s.summary          = 'A Tiny Straight out-of-the-box QRScanner Based on AV Foundation'
   
     s.description      = <<-DESC
-        Straight out-of-the-box QRScanner Based on AV Foundation
+      A Tiny Straight out-of-the-box QRScanner Based on AV Foundation
                          DESC
   
     s.homepage         = 'https://github.com/pacu/QRScanner'
