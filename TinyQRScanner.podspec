@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
       A Tiny Straight out-of-the-box QRScanner Based on AV Foundation
                          DESC
   
-    s.homepage         = 'https://github.com/pacu/QRScanner'
+    s.homepage         = 'https://github.com/pacu/TinyQRScanner'
     s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
     s.author           = { 'Francisco Gindre' => 'francisco.gindre@gmail.com',
                             'Abilash KM' => 'abhimuralidharan1992@gmail.com' }
