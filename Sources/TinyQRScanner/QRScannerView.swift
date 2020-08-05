@@ -21,6 +21,7 @@ public class QRScannerView: UIView {
     
     public weak var delegate: QRScannerViewDelegate?
     
+    public var continueVideoSessionAfterScanning = false
     /// capture settion which allows us to start and stop scanning.
     var captureSession: AVCaptureSession?
     
@@ -115,10 +116,14 @@ extension QRScannerView: AVCaptureMetadataOutputObjectsDelegate {
         if let metadataObject = metadataObjects.first {
             guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else { return }
             guard let stringValue = readableObject.stringValue else { return }
+            if !continueVideoSessionAfterScanning {
             AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
+            }
             found(code: stringValue)
         }
-        stopScanning()
+        if !continueVideoSessionAfterScanning {
+            stopScanning()
+        }
     }
     
 }
