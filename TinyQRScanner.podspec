@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'TinyQRScanner'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'A Tiny Straight out-of-the-box QRScanner Based on AV Foundation'
   
     s.description      = <<-DESC
