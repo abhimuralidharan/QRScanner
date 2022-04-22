@@ -11,7 +11,7 @@ import UIKit
 import AVFoundation
 
 /// Delegate callback for the QRScannerView.
-public protocol QRScannerViewDelegate: class {
+public protocol QRScannerViewDelegate: AnyObject {
     func qrScanningDidFail()
     func qrScanningSucceededWithCode(_ str: String?)
     func qrScanningDidStop()
