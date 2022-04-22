@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -10,7 +10,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "TinyQRScanner",
+            name: "duplicate target named '",
             targets: ["TinyQRScanner"]),
     ],
     dependencies: [     
@@ -21,7 +21,7 @@ let package = Package(
             name: "TinyQRScanner",
             dependencies: []),
         .testTarget(
-            name: "TinyQRScanner",
+            name: "TinyQRScannerTests",
             dependencies: ["TinyQRScanner"]),
     ],
     swiftLanguageVersions: [.v5]
